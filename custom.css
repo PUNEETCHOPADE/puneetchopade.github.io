@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Dancing+Script|East+Sea+Dokdo|Francois+One|Lato|Lobster|Pacifico|Permanent+Marker|Righteous|Roboto+Condensed|Ubuntu|Vollkorn');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Alfa+Slab+One|Archivo+Black|Audiowide|Chau+Philomene+One|Chewy|Concert+One|Courgette|Cute+Font|Damion|Fascinate+Inline|Fredericka+the+Great|Fredoka+One|Jua|Kaushan+Script|Knewave|Lalezar|Lobster+Two|Luckiest+Guy|Marck+Script|Metamorphous|Monoton|Mr+Dafoe|Oleo+Script|Pacifico|Passion+One|Patua+One|Permanent+Marker|Poppins|Roboto|Russo+One|Satisfy|Sigmar+One|Tangerine');
+
+
+.navbar{
+    background-color: whitesmoke!important;
+    border:5px #000
+  }
+  
+  .navbar-brand{
+      font-family: 'Lobster', cursive;
+      font-size: 25px;
+      color: rgb(255, 0, 255) !important;
+  }
+  .navbar-brand:hover{
+    font-family: 'Lobster', cursive;
+    transition: 5s ease;
+    font-size: 250%;
+    color: black !important;
+    
+}
+  .nav-link{
+  
+      font-size: 20px;
+      color: rgba(100, 17, 17, 0.808)portant;
+      margin: 20px;
+      font-family: 'Lobster', cursive;
+  }
+  
+  .nav-link:hover{
+      color: black !important;
+      transition: 2s ease;
+      font-size: 200%;
+  }
+ 
+
+   .active.nav-link{
+      color: blue !important;
+  }
+  .soc{
+    padding: 20px;
+    align-content: center;
+  
+  }
+  
+  /* Add a hover effect if you want */
+  .soc:hover {
+    opacity: 0.7;
+  }
+  .xop-sectin{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 6% 2%;
+
+  }
+
+  .xop-grid{
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .xop-grid:after{
+    clear: both;
+  }
+  .xop-grid:after, .xop-box:before{
+    content: "";
+    display: table;
+  }
+
+  .xop-grid li{
+    width: 328px;
+    height: 328px;
+    display: inline-block;
+    margin: 20px;
+  
+  }
+
+  .xop-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition: 0.3s ease-in-out, -webkit-transform:0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out, -moz-transform:0.3s ease-in-out;
+    transition: 0.3s ease-in-out transform 0.3s ease-in-out;
+  }
+.xop-box:hover{
+  transform: scale(1.05);
+}
+.xop-img-1{
+  background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(images/pw1.JPG);
+}
+.xop-img-2{
+  background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(images/pw2.jpg);
+}
+.xop-img-3{
+  background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(images/pw3.jpg);
+}
+.xop-img-4{
+  background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(images/pw4.jpg);
+}
+.xop-info{
+  position: absolute;
+  width: inherit;
+  height: inherit;
+}
+.xop-info h3{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 42px;
+  margin: 0 30px;
+  padding: 100px 0 0 0;
+  line-height: 1.5;
+ }
+ .xop-info p{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: #fff;
+ }
